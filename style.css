@@ -1,5 +1,65 @@
 .nav {
     background-color: rgb(202, 202, 202);
-    padding-left: 0vw;
     height: 100vw;
+    margin-left: 0vw;
+    width: 25%;
+    box-shadow: .2vw 0vw 2vw 1vw rgb(202, 202, 202);
+    border-right: .3vw solid grey;
+}
+.pluh {
+    margin-left: 0vw;
+}
+.pluh2 {
+    margin-left: 0vw;
+    padding-left:0vw;
+}
+.homeimg {
+    height: 4vw;
+    margin-top: .5vw;
+}
+.homeimg2 {
+    height: 5vw
+}
+
+.homevid {
+    width: 100vw;
+    height: 50vw;
+}
+.pitthome {
+    text-align: center;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+/* gotten from https://blog.hubspot.com/website/css-fade-in */
+.bod {
+    background: #FFB81C ;
+    animation: fadeBackground 20s infinite; 
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeBackground {
+    0% { background-color: #FFB81C ; }
+    50% { background-color: #003594 ; }
+    100% { background-color: #FFB81C ; }
+  }
+  .fade-in-image { animation: fadeIn 10s; }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+.floating-img{
+  transform: translateY(-2%);
+  animation: floater 5s infinite;
+  transition: ease 20s;
+}
+
+
+  
+
+@keyframes floater {
+  0%{transform: translateY(-2%);transition: ease 5s;}
+  50%{transform: translateY(2%);transition: ease 5s;}
 }
