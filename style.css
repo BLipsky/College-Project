@@ -31,6 +31,13 @@
     margin-left: 10vw;
 }
 
+.carousel-item {
+  margin-top: 2vw;
+  width: rem;
+}
+
+
+
 /* gotten from https://blog.hubspot.com/website/css-fade-in */
 .bod {
     background: #FFB81C ;
@@ -53,13 +60,25 @@
 .floating-img{
   transform: translateY(-2%);
   animation: floater 5s infinite;
-  transition: ease 20s;
 }
 
-
-  
 
 @keyframes floater {
   0%{transform: translateY(-2%);transition: ease 5s;}
   50%{transform: translateY(2%);transition: ease 5s;}
+}
+
+.slidetext{
+  text-align: center;
+  text-shadow: 0vw 0vw 2vw  #0047ca;
+  color:#FFB81C ; 
+   font-family: "RocknRoll One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: vw;
+
+}
+
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 5s;
 }
