@@ -1,18 +1,10 @@
 .nav {
     background-color: rgb(202, 202, 202);
-    height: 100vw;
     margin-left: 0vw;
-    width: 25%;
     box-shadow: .2vw 0vw 2vw 1vw rgb(202, 202, 202);
     border-right: .3vw solid grey;
 }
-.pluh {
-    margin-left: 0vw;
-}
-.pluh2 {
-    margin-left: 0vw;
-    padding-left:0vw;
-}
+
 .homeimg {
     height: 4vw;
     margin-top: .5vw;
@@ -81,4 +73,14 @@
 
 .animate__animated.animate__fadeInUp {
   --animate-duration: 5s;
+}
+.huddle {
+  text-align: center;
+  padding: 0vw;
+  margin-top: -2vw;
+}
+.slide {
+  width: 100%;
+  border-bottom: 1.2vw solid grey ;
+  margin-bottom: 10vw;
 }
