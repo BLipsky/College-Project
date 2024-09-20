@@ -82,6 +82,9 @@
   flex: 0 0 33.333%;
 }
 
+.bodd {
+  overflow-x: hidden;
+}
 .card .col-md-8 {
   display: flex;
   flex-direction: column;
