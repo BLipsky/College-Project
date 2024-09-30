@@ -2,7 +2,10 @@
     background-color: rgb(202, 202, 202);
     margin-left: 0vw;
     box-shadow: .2vw 0vw 2vw 1vw rgb(202, 202, 202);
-    border-right: .3vw solid grey;
+    border-right: .5vw solid grey;
+    height: 54.4vw;
+    border-bottom: 1.2vw solid grey;
+
 }
 
 .homeimg {
@@ -26,6 +29,7 @@
 .carousel-item {
   margin-top: 2vw;
   width: rem;
+  height: 53.2vw;
 }
 
 
@@ -100,8 +104,7 @@
   0%{transform: translateY(-2%);transition: ease 5s;}
   50%{transform: translateY(2%);transition: ease 5s;}
 }
-.three {
-}
+
 .blue {
  border: .2vw solid rgb(23, 41, 100);
  box-shadow: 0vw 0vw 2vw #0047ca;
@@ -139,5 +142,22 @@
 }
 .pluck {
   text-align: center;
-  margin-left: 22.5vw;
+  margin-left: 13vw;
+}
+.navy {
+  color: #0047ca;
+  text-shadow: 0vw 0vw .3vw #FFB81C;
+  text-align: center;
+}
+
+.navy2 {
+  padding: 1vw;
+  padding-top: 2vw;
+  font-size: 2vw;
+
+}
+.navy22 {
+  padding-top: -2vw;
+  font-size: 2vw;
+
 }
