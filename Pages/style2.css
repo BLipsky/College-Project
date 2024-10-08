@@ -103,7 +103,7 @@
 }
 .grad {
     background-size: contain;
-    background-image: linear-gradient( rgb(0, 0, 88), rgb(0, 0, 161), #003594);
+    background-image: radial-gradient( rgb(0, 0, 88), rgb(0, 0, 161), #003594);
 }
 .card .col-md-8 {
   display: flex;
@@ -168,12 +168,21 @@
   text-shadow: 0vw 0vw .3vw #FFB81C;
   text-align: center;
 }
+.navy3 {
+  color: #0047ca;
+  text-shadow: 0vw 0vw .3vw #FFB81C;
+  text-align: center;
+}
 
 .navy2 {
   padding: 1vw;
   padding-top: 2vw;
+  font-size: 1.5vw;
+}
+.navy23 {
+  padding: 1vw;
+  padding-top: 2vw;
   font-size: 2vw;
-
 }
 .navy22 {
   padding-top: -2vw;
